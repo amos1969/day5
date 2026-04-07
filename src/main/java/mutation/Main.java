@@ -27,7 +27,7 @@ public class Main {
         myBankAccount.balance = -100;
 
         System.out.println("My balance is " + myBankAccount.balance);
-        System.out.println("My other balance is " + myBankAccount.balance);
+        System.out.println("My other balance is " + myOtherBankAccount.balance);
 
         // See code below and CloneableBankAccount class for most basic implementation of the clone() method
         CloneableBankAccount cloneableBankAccount = new CloneableBankAccount(500);
